@@ -6,4 +6,5 @@ sh ~/.vim_runtime/install_basic_vimrc.sh
 cd ~/.vim_runtime/my_plugins/YouCompleteMe
 ./install.py --clang-completer --go-completer --rust-completer
 
-wget
+wget https://raw.githubusercontent.com/shidephen/myconfig/master/.zshrc -O ~/.zshrc
+
